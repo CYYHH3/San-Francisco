@@ -14,23 +14,46 @@
         .container {
             position: absolute;
             height: auto;
-            width: auto;
+            width: 60%;
+            background-color: #f0f0f0;
+            padding: 3% 5%;
+            border-radius: 10px;
             text-align: center;
             top: 50%;
             left: 50%;
             transform: translateX(-50%) translateY(-50%);
         }
-        h1 {
+        h2 {
             margin-bottom: 20px;
         }
         .btn-group {
             margin-bottom: 20px;
         }
+        @media only screen and (max-width: 700px) {
+            .container {
+                width: 70%;
+            }
+        }
+        @media only screen and (max-width: 466px) {
+            .container {
+                width: 80%;
+            }
+        }
+        @media only screen and (max-width: 400px) {
+            .container {
+                width: 90%;
+            }
+        }
+        @media only screen and (max-width: 349px) {
+            .container {
+                width: 95%;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Download</h1>
+        <h2>Download</h2>
         <div class="btn-group btn-group-sm" role="group">
             <a href="./documents/Welcome to San Francisco Bay Area.pdf" download="Welcome to San Francisco Bay Area.pdf" class="btn btn-outline-primary" target="_blank">
                 <svg style="width:22px;height:22px" viewBox="0 0 24 24">
