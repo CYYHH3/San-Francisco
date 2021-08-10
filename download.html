@@ -1,1 +1,59 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download</title>
+    <link rel="icon" href="./img/download.png" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 微软雅黑, sans-serif;
+        }
+        .container {
+            position: absolute;
+            height: auto;
+            width: auto;
+            text-align: center;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .btn-group {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Download</h1>
+        <div class="btn-group btn-group-sm" role="group">
+            <a href="./documents/Welcome to San Francisco Bay Area.pdf" download="Welcome to San Francisco Bay Area.pdf" class="btn btn-outline-primary" target="_blank">
+                <svg style="width:22px;height:22px" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M2 12H4V17H20V12H22V17C22 18.11 21.11 19 20 19H4C2.9 19 2 18.11 2 17V12M12 15L17.55 9.54L16.13 8.13L13 11.25V2H11V11.25L7.88 8.13L6.46 9.55L12 15Z" />
+                </svg>
+                Speech (PDF)
+            </a>
+            <a href="./documents/Welcome to San Francisco Bay Area.docx" download="Welcome to San Francisco Bay Area.docx" class="btn btn-outline-primary" target="_blank">
+                <svg style="width:22px;height:22px" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M2 12H4V17H20V12H22V17C22 18.11 21.11 19 20 19H4C2.9 19 2 18.11 2 17V12M12 15L17.55 9.54L16.13 8.13L13 11.25V2H11V11.25L7.88 8.13L6.46 9.55L12 15Z" />
+                </svg>
+                Speech (DOCX)
+            </a>
+        </div>
+        <br>
+        <div class="btn-group btn-group-sm" role="group">
+            <a href="./documents/Welcome to San Francisco Bay Area.pptx" download="Welcome to San Francisco Bay Area.pptx" class="btn btn-outline-primary" target="_blank">
+                <svg style="width:22px;height:22px" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M2 12H4V17H20V12H22V17C22 18.11 21.11 19 20 19H4C2.9 19 2 18.11 2 17V12M12 15L17.55 9.54L16.13 8.13L13 11.25V2H11V11.25L7.88 8.13L6.46 9.55L12 15Z" />
+                </svg>
+                PowerPoint (PPTX)
+            </a>
+        </div>
+    </div>
+</body>
+</html>
