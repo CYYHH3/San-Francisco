@@ -7,66 +7,26 @@
     <title>Download</title>
     <link rel="icon" href="./img/download.png" type="image/x-icon" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <style>
-        body {
-            font-family: 微软雅黑, sans-serif;
-        }
-        .container {
-            position: absolute;
-            height: auto;
-            width: 60%;
-            background-color: #f0f0f0;
-            padding: 3% 5%;
-            border-radius: 10px;
-            text-align: center;
-            top: 50%;
-            left: 50%;
-            transform: translateX(-50%) translateY(-50%);
-        }
-        h2 {
-            margin-bottom: 30px;
-        }
-        h4 {
-            color: #4c4c4c;
-        }
-        /*.btn-group {
-            margin-bottom: 20px;
-        }*/
-        .btn-group-sm-01 {
-            margin-bottom: 40px;
-        }
-        @media only screen and (max-width: 700px) {
-            .container {
-                width: 70%;
-            }
-        }
-        @media only screen and (max-width: 466px) {
-            .container {
-                width: 80%;
-                padding: 5% 5%;
-            }
-        }
-        @media only screen and (max-width: 400px) {
-            .container {
-                width: 90%;
-                padding: 8% 5%;
-            }
-            h2 {
-                margin-bottom: 25px;
-            }
-        }
-        @media only screen and (max-width: 349px) {
-            .container {
-                width: 95%;
-            }
-        }
-    </style>
+    <link href="./css/download.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Header -->
+    <div class="header">
+        <a href="./" class="header-url">
+            <img class="header-logo" src="./img/index-icon.png" alt="Logo">
+            <h3 class="header-sitename"></h3>
+        </a>
+        <div class="header-url header-url-sm">
+            <a href="./" class="header-url url-list"><strong>Home</strong></a>
+            <a href="./demo/" class="header-url url-list"><strong>Demo</strong></a>
+        </div>
+    </div>
+
+    <!-- Body -->
     <div class="container">
         <!--<h2>Download</h2>-->
         <h4>Download Speech</h4>
-        <div class="btn-group  btn-group-sm btn-group-sm-01" role="group">
+        <div class="btn-group btn-group-sm btn-group-sm-01" role="group">
             <a href="./documents/Welcome to San Francisco Bay Area.pdf" download="Welcome to San Francisco Bay Area.pdf" class="btn btn-outline-primary" target="_blank">
                 <svg style="width:22px;height:22px" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M2 12H4V17H20V12H22V17C22 18.11 21.11 19 20 19H4C2.9 19 2 18.11 2 17V12M12 15L17.55 9.54L16.13 8.13L13 11.25V2H11V11.25L7.88 8.13L6.46 9.55L12 15Z" />
