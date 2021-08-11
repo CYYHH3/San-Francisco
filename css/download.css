@@ -45,7 +45,7 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 90px;
+    left: 85px;
 }
 .url-list {
     text-decoration: none;
@@ -59,7 +59,7 @@ body {
         left: 50px;
     }
     .header-url-sm {
-        left: 60px;
+        left: 65px;
     }
     .url-list {
         margin-right: 10px;
